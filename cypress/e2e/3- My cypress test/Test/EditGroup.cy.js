@@ -54,18 +54,18 @@ describe('Edit Group for Paack' , () => {
     //     mygroup.updateSuccess()                                  //validation that Update sucess exist
     // })
 
-//     it('Should remove all the groups from the space', () => {
+    it('Should remove all the groups from the space', () => {
         
-//         mylogin.goToHomepage('https://wms.staging.paack.app')        //go to Login page
-//         mylogin.fillfields(userdata.user, userdata.pass)             // insert user and pass
-//         mygroup.goToGroup()                                         //  go to group tab
-//         mygroup.goToGroupSearchFiled(searchGroup)              // search for package with name 'test'
-//         mygroup.clickTabButton('Spaces/Pallets')                  //click SpacePallets tab  
-//         mygroup.clickSelectAll()                                  //click select all
-//         mygroup.removeSpace()                                   //click remove button
-//         mygroup.clickRemove()                                  //confirm remove
-//         mygroup.updateSuccess()                              //validation that Update sucess exist
-// })
+        mylogin.goToHomepage('https://wms.staging.paack.app')        //go to Login page
+        mylogin.fillfields(userdata.user, userdata.pass)             // insert user and pass
+        mygroup.goToGroup()                                         //  go to group tab
+        mygroup.goToGroupSearchFiled(searchGroup)              // search for package with name 'test'
+        mygroup.clickTabButton('Spaces/Pallets')                  //click SpacePallets tab  
+        mygroup.clickSelectAll()                                  //click select all
+        mygroup.removeSpace()                                   //click remove button
+        mygroup.clickRemove()                                  //confirm remove
+        mygroup.updateSuccess()                              //validation that Update sucess exist
+})
 
 
 })
